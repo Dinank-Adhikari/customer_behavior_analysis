@@ -153,11 +153,11 @@ The Power BI dashboard (`Customer_Behavior_Dashboard.pbix`) includes:
 Customer_Behavior_Analysis/
 │
 ├── customer_shopping_behavior.csv            # Raw dataset
-├── Customer_Shopping_Behavior_Analysis.ipynb # Python cleaning and EDA
+├── Customer_Behavior_Analysis.ipynb # Python cleaning and EDA
 ├── customer_behavior_sql_queries.sql         # SQL Server queries (10 questions)
 ├── Customer_Behavior_Dashboard.pbix          # Power BI dashboard
-├── Customer_Shopping_Behavior_Analysis.pdf   # Project report
-└── Customer-Shopping-Behavior-Analysis.pptx  # Presentation (created with Gamma)
+├── Customer_Behavior_Analysis.pdf   # Project report
+└── Customer_Behavior_Analysis.pptx  # Presentation (created with Gamma)
 ```
 
 ---
@@ -195,7 +195,7 @@ Open `Customer_Shopping_Behavior_Analysis.ipynb` in Jupyter and update the SQL S
 
 ```python
 "DRIVER={ODBC Driver 17 for SQL Server};"
-"SERVER=YOUR_SERVER_NAME\\SQLEXPRESS;"
+"SERVER=DINANK\\SQLEXPRESS;"
 "DATABASE=customer_behavior;"
 "Trusted_Connection=yes;"
 "TrustServerCertificate=yes;"
